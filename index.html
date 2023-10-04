@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form to Order Pizza</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>I followed my heart and it led me to pizza!!</h1>
+            <br>
+            <h2>Come and get your favourite pizza at Grabb-a-Pizza!!</h2>
+        
+        </header>
+        <main>
+            <section>
+                <h4>A LITTLE SLICE OF PARADISE!</h4>
+                <form action="order_confirmation.html" method="POST">
+                    <fieldset>
+                        <legend>Personal Details</legend>
+                        <label for="name">Name:</label>
+                        <input type="text"id="name"name="name"required><br><br>
+                        <label for="Mobile Number">Mobile Number:</label>
+                        <input type="tel"id="Mobile Number"name="Mobile Number"required><br><br>
+                        <label for="email">E-Mail:</label>
+                        <input type="email"id="email"name="email"required><br><br>
+
+
+                    </fieldset>
+                    <br>
+                    <!--Ordering Details-->
+                    <label for="Howmanypizzas?">How Many Pizzas?</label>
+                    <input type="number" id="Howmanypizzas?" name="Howmanypizzas?" min="1" required>
+
+                    <!--Pizza size-->
+                    <fieldset>
+                        <legend>Select the desired Pizza Size</legend>
+                        <label for="small">Small</label>
+                        <input type="radio" id="small" name="size" value="small">
+                        <label for="medium">Medium</label>
+                        <input type="radio" id="medium" name="size" value="medium">
+                        <label for="large">Large</label>
+                        <input type="radio" id="large" name="size" value="large">
+</fieldset>
+<br>
+
+<!--Pizza Shape-->
+<label for="shape">Pizza Shape:</label>
+<select id="shape" name="shape">
+    <option value="round">Round</option>
+    <option value="square">Square</option>
+</select>
+
+<!--Toppings-->
+<fieldset>
+<legend>Variety of Toppings</legend>
+
+<label for="extra cheese">Extra-Cheese</label>
+<input type="radio" id="extra cheese" name="toppings" value="Extra-Cheese">
+<label for="soya corn">Soya Corn</label>
+<input type="radio" id="soya corn" name="toppings" value="Soya Corn">
+<label for="jalapeno">Jalapeno</label>
+<input type="radio" id="jalapeno" name="toppings" value="Jalapeno">
+<label for="black olives">Black Olives</label>
+<input type="radio" id="black olives" name="toppings" value="Black Olives">
+<label for="sliced mushrooms">Sliced Mushrooms</label>
+<input type="radio" id="sliced mushrooms" name="toppings" value="Sliced Mushrooms">
+<label for="chilli garlic">Chilli Garlic</label>
+<input type="radio" id="chilli garlic" name="toppings" value="Chilli Garlic">
+</fieldset>
+<br>
+
+<!--Type of Crust-->
+<fieldset>
+    <legend>Types of Crust</legend>
+    <label for="hand-tossed">Hand-Tossed</label>
+    <input type="radio" id="hand-tossed" name="crust" value="Hand-Tossed">
+    <label for="pancrust">Pan-Crust</label>
+    <input type="radio" id="pancrust" name="crust" value="Pan-Crust">
+    <label for="cheeseburst">Cheeseburst</label>
+    <input type="radio" id="cheeseburst" name="crust" value="Cheeseburst">
+    <label for="crunchy-thin">Crunchy-Thin</label>
+    <input type="radio" id="crunchy-thin" name="crust" value="Crunchy-Thin">
+    <label for="othercrusts">Other</label>
+    <input type="radio" id="othercrusts" name="crust" value="Other">
+</fieldset>
+<br>
+
+<!--Delivery Method-->
+<label for="deliverymethod">Delivery Method:</label>
+<select id="deliverymethod" name="deliverymethod">
+    <option value="takeaway">Takeaway</option>
+    <option value="homedelivery">Home Delivery</option>
+    <option value="dinein">Dine In</option>
+</select>
+
+<!--Submit and Reset Buttons-->
+<br>
+<input type="submit" value="Place Your Order">
+<input type="reset" value="Hope you will love our stuff!">
+
+</form>
+</section>
+
+<section>
+    <h2>An illustration of pizza sample:</h2>
+    <p>A slice on your plate will be a smile on your face!</p>
+    <img src="pizza.jpeg" alt="Delectable Pizza">
+    </section>
+</main>
+<footer>
+    <p>&copy; Grabb-a-Pizza since 2010</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,103 @@
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(255, 140, 0);
+    margin: 15px;
+    padding: 15px;
+}
+.container
+{
+    max-width: fit-content;
+    margin: 700;
+    padding: 40px;
+    background-color: rgb(220, 220, 220);
+    box-shadow: 0 0 0.3px rgba(1,1,2,3);
+
+}
+/*header*/
+header{
+    text-align: centre;
+    margin-bottom: 15px;
+    color: rgb(139, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:italic;
+    text-shadow:7px 4px 8px rgb(7, 0, 4);
+
+    
+}
+h1{
+    color: #102166;
+}
+/*form style*/
+form{
+    background-color: crimson;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 0 0 6px rgba(rgb(195, 255, 0), rgb(0, 73, 128), rgb(0, 255, 55), alpha);
+}
+legend{
+    font-weight: bolder;
+    display: flexbox;
+    margin-bottom: 3px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+select,
+textarea{
+    width: 60%;
+    padding: 3px;
+    margin-bottom: 7px;
+    border: 1px rgb(217, 255, 0);
+    border-radius: 25px;
+}
+input[type="checkbox"],
+input[type="radio"]{
+    
+    margin-right: 15px;
+
+}
+/*button style*/
+input[type="submit"],
+input[type="reset"]{
+    background-color: rgb(151, 165, 42);
+    color:rgb(10, 0, 0);
+    padding:15px 10px;
+    border: rgb(12, 92, 87);
+    border-radius: 20px;
+    cursor: default;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: oblique;
+}
+input[type="submit"]:backdrop,
+input[type="reset"]::backdrop{
+    background-color: rgb(0, 128, 107);
+}
+/*image style*/
+img{
+
+width: 600px;
+height: 500px;
+border: mediumblue;
+border-radius: 15px;
+display: block;
+margin:auto;
+box-shadow: 25px 8px 30px rgb(0, 0, 0);
+ }
+legend{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(22, 0, 130);
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 21, 255);
+}
+
+
